@@ -240,60 +240,40 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-2 publication-title">IRIS: An Immersive Robot Interaction System</h1>
+            <h1 class="title is-2 publication-title">Grounding Discrete-Time Joint-Level Acceleration Realizability in Voltage-Constrained Actuation</h1>
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="https://xinkai-jiang.github.io/" target="_blank">Xinkai Jiang</a><sup>1,*</sup>,
+                <a href="https://github.com/ZLWSSS" target="_blank">Lingwei Zhang</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                Qihao Yuan<sup>2</sup>,
+                Jiaming Wang<sup>1</sup>,
               </span>
               <span class="author-block">
-                Enes Ulas Dincer<sup>1</sup>,
+                <a href="https://github.com/skywoodsz" target="_blank">Tianlin Zhang</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="https://hongyizhoucn.github.io" target="_blank">Hongyi Zhou</a><sup>1</sup>,
+                <a href="https://scholar.google.com/citations?user=kmGkycYAAAAJ&hl=zh-TW" target="_blank">Zhitao Song</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="https://brucegeli.github.io" target="_blank">Ge Li</a><sup>1</sup>,
+                <a href="https://scholar.google.com/citations?user=vaaU-zQAAAAJ&hl=en" target="_blank">Xuanqi Zeng</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                Xueyin Li<sup>1</sup>,
+                <a href="https://ieeexplore.ieee.org/author/508888935316870" target="_blank">Weipeng Xia</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                Xiaogang Jia<sup>1</sup>,
+                <a href="https://zyliatzju.github.io/" target="_blank">Zhongyu Li</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                Timo Schnizer<sup>1</sup>,
-              </span>
-              <span class="author-block">
-                Nicolas Schreiber<sup>1</sup>,
-              </span>
-              <span class="author-block">
-                Weiran Liao<sup>1</sup>,
-              </span>
-              <span class="author-block">
-                Julius Haag<sup>1</sup>,
-              </span>
-              <span class="author-block">
-                <a href="https://kailaili.github.io/" target="_blank">Kailai Li</a><sup>2</sup>,
-              </span>
-              <span class="author-block">
-                Gerhard Neumann<sup>1</sup>,
-              </span>
-              <span class="author-block">
-                <a href="https://rudolf.intuitive-robots.net" target="_blank">Rudolf Lioutikov</a><sup>1</sup>,
+                <a href="https://www4.mae.cuhk.edu.hk/peoples/liu-yun-hui/" target="_blank">Yun-hui Liu</a><sup>1,*</sup>,
               </span>
           </div>
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
                   <sup>1</sup>
-                  <span class="author-block">Karlsruhe Institute of Technology</span>
-                  <sup>2</sup>
-                  <span class="author-block">University of Groningen</span><br>
-                  <span class="author-block">CoRL 2025</span>
+                  <span class="author-block">The Chinese University of HongKong</span>
+                  <span class="author-block">RSS 2026</span>
                     <!-- TODO: Remove this line if no equal contribution -->
                     <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
                   </div>
@@ -328,7 +308,7 @@
                     <span class="icon">
                       <i class="fab fa-python"></i>
                     </span>
-                    <span>Python Code</span>
+                    <span>Code</span>
                   </a>
                 </span>
 
@@ -412,7 +392,18 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-          This paper introduces IRIS, an Immersive Robot Interaction System leveraging Extended Reality (XR). Existing XR-based systems enable efficient data collection but are often challenging to reproduce and reuse due to their specificity to particular robots, objects, simulators, and environments. IRIS addresses these issues by supporting immersive interaction and data collection across diverse simulators and real-world scenarios. It visualizes arbitrary rigid and deformable objects, robots from simulation, and integrates real-time sensor-generated point clouds for real-world applications. Additionally, IRIS enhances collaborative capabilities by enabling multiple users to simultaneously interact within the same virtual scene. Extensive experiments demonstrate that IRIS offers efficient and intuitive data collection in both simulated and real-world settings.
+            Discrete-time joint acceleration constraints are widely used to
+            enforce position and velocity limits. However, under
+            voltage-constrained electric actuators, kinematically admissible
+            accelerations may be physically unrealizable, exposing a missing
+            execution-level abstraction. We propose Voltage-Realizable
+            Acceleration (VRA), a joint-level acceleration interface that
+            grounds kinematic acceleration in voltage-constrained
+            actuator physics by restricting commanded accelerations to
+            voltage-realizable constraints. Hardware experiments on electric
+            actuators and a wheel-legged quadruped show that VRA removes
+            unrealizable accelerations, restores consistent near-constraint
+            execution, and reduces constraint-induced oscillations.
           </p>
         </div>
       </div>
