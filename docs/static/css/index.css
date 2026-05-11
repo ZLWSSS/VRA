@@ -112,6 +112,20 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.teaser-cover {
+  width: 100%;
+  aspect-ratio: 1449 / 1034;
+  display: block;
+  object-fit: contain;
+  background: #ffffff;
+}
+
+.teaser-cover img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 /* Publication Content Styling */
 .publication-title {
@@ -259,9 +273,9 @@ body {
 }
 
 .results-carousel .item {
-  margin: 1rem;
+  margin: 0;
   overflow: hidden;
-  padding: 1.5rem;
+  padding: 0;
   font-size: 0;
   background: var(--background-primary);
   border-radius: var(--border-radius-lg);
@@ -280,14 +294,38 @@ body {
   margin: 0;
   border-radius: var(--border-radius);
   width: 100%;
+  aspect-ratio: 1449 / 1034;
   height: auto;
+  display: block;
+  object-fit: contain;
+  background: #ffffff;
 }
 
 .results-carousel .subtitle {
   font-size: 1rem !important;
   color: var(--text-secondary);
-  margin-top: 1rem;
+  margin: 1rem 1rem 1.25rem;
   font-weight: 500;
+}
+
+.single-video-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.single-video-card {
+  width: 100%;
+}
+
+.presentation-video {
+  width: 100%;
+  aspect-ratio: 1449 / 1034;
+  display: block;
+  object-fit: contain;
+  background: #ffffff;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
 }
 
 /* Pagination and Misc Improvements */
@@ -643,8 +681,8 @@ code {
   }
   
   .results-carousel .item {
-    margin: 0.5rem;
-    padding: 1rem;
+    margin: 0;
+    padding: 0;
   }
   
   .teaser .hero-body {
